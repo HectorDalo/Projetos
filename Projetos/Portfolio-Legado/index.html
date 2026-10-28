@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hector Dalonso | Portfólio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="javaScript/script.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>HD.</h1>
+
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#terminal">Terminal</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="inicio">
+
+                <h2 id="titulo-dinamico">
+                    <span class="simbolo">>>></span>
+                    <span id="texto-titulo"></span>
+                    <span class="simbolo"><<<</span>
+                </h2>
+
+                <p>
+                    Estudante de Ciência da Computação e desenvolvedor
+                    em formação, com foco em programação e desenvolvimento de sistemas.
+                </p>
+
+                <div id="acessoSistema">
+
+                    <p class="status-sistema">SYSTEM LOCKED</p>
+
+                    <div class="lista-modulos">
+
+                        <p id="statusModulo">Aguardando autorização...</p>
+
+                        <p id="acessoPermitido">ACESSO PERMITIDO</p>
+
+                    </div>
+
+                    <div class="barra-acesso">
+                        <div class="progresso-acesso" id="progressoAcesso"></div>
+                    </div>
+
+                    <span id="porcentagemAcesso">0%</span>
+
+                    <button id="btnAcesso" class="btn">
+                        Liberar acesso
+                    </button>
+
+                </div>
+
+
+
+            </section>
+
+            <section id="sobre">
+                <h2>Sobre mim</h2>
+
+                <div class="sobre-container">
+
+                    <div class="sobre-card">
+                        <h3>Quem sou</h3>
+
+
+                    <p>
+                         Sou estudante de Ciência da Computação e desenvolvedor em formação, com interesse em
+                         programação, desenvolvimento de
+                         sistemas e tecnologia. Busco transformar meus conhecimentos em projetos práticos,
+                         aprimorando continuamente minhas habilidades e construindo minha experiência na área de
+                         desenvolvimento.
+                    </p>
+                </div>
+
+                <div class="sobre-card">
+                    <h3>Minha área</h3>
+
+                    <p>
+                        Tenho foco em programação e desenvolvimento de sistemas, com
+                        conhecimentos em Python, HTML, CSS, JavaScript e Programação
+                        Orientada a Objetos. Atualmente, venho desenvolvendo projetos
+                        práticos para fortalecer minha base em programação, explorar
+                        diferentes tecnologias e evoluir como desenvolvedor.
+                    </p>
+                </div>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Programação Orientada a Objetos</li>
+                </ul>
+            </section>
+
+            <section id="projetos">
+                <h2>Projetos</h2>
+
+                        <div class="projetos-container" id="listaProjetos"></div>
+
+            </section>
+
+            <section id="terminal">
+                <h2>Terminal</h2>
+
+                    <div class="terminal">
+                        <div class="terminal-topo">
+                            <span>hector@portfolio:~$</span>
+                        </div>
+
+                        <div class="terminal-conteudo">
+                            <p>Bem-vindo ao terminal do Hector.</p>
+                            <p>Digite <strong>help</strong> para ver os comandos disponíveis.</p>
+
+                            <div id="historicoTerminal"></div>
+
+                            <div class="terminal-linha">
+                                <span>hector@portfolio:~$</span>
+                                <input type="text" id="terminalInput">
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section id="contato">
+                <h2>Contato</h2>
+
+                <div class="conexao">
+                    <button id="btnConexao" class="btn">
+                        Estabelecer conexão
+                    </button>
+
+                    <div class="carregamento" id="carregamento">
+                        <p>Estabelecendo conexão...</p>
+
+                        <div class="barra">
+                            <div class="progresso" id="progresso"></div>
+                        </div>
+
+                        <span id="porcentagem">0%</span>
+                    </div>
+
+                    <div class="conexao-sucesso" id="conexaoSucesso">
+                        <p>CONEXÃO ESTABELECIDA</p>
+
+                        <span>Selecione um canal para entrar em contato.</span>
+
+                            <div class="canais-contato">
+
+                                <div class="canal-wrapper">
+
+                                    <a href="https://wa.me/5511979934334"
+                                        target="_blank"
+                                        class="canal-contato">
+                                        WhatsApp
+                                    </a>
+
+                                    <div class="status-contato"></div>
+
+                                </div>
+
+                                <div class="canal-wrapper">
+
+                                    <a href="https://www.linkedin.com/in/hdalonso"
+                                        target="_blank"
+                                        class="canal-contato">
+                                        LinkedIn
+                                    </a>
+
+                                    <div class="status-contato"></div>
+
+                                </div>
+
+                                <div class="canal-wrapper">
+
+                                    <a href="https://github.com/HectorDalo"
+                                        target="_blank"
+                                        class="canal-contato">
+                                        GitHub
+                                    </a>
+
+                                    <div class="status-contato"></div>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>© 2026 Hector Dalonso - Desenvolvedor em formação</p>
+        </footer>
+
+    </body>
+</html>

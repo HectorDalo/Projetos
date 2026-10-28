@@ -1,41 +1,34 @@
-# Hector Dalonso
+# Projetos — Hector Dalonso
 
-**Estudante de Ciência da Computação | Desenvolvedor em formação**
+Central dos meus projetos pessoais e estudos em desenvolvimento de software.
 
-Bem-vindo ao meu portfólio no GitHub! Aqui compartilho meus projetos, estudos e minha evolução no desenvolvimento de software.
+**[Portfólio atual](https://hector-dalonso.pages.dev/)** · **[Catálogo dos projetos](https://hectordalo.github.io/Projetos/)** · **[LinkedIn](https://www.linkedin.com/in/hdalonso/)**
 
-## Sobre mim
+## Projetos
 
-Sou estudante de Ciência da Computação e venho desenvolvendo minhas habilidades por meio de projetos práticos. Tenho interesse em programação, desenvolvimento de aplicações e construção de soluções utilizando tecnologia.
+| Projeto | Descrição | Tecnologias |
+|---|---|---|
+| [HD Clientes Local](Projetos/Cadastro-Clientes/) | Cadastro desktop com usuários, permissões, SQLite, histórico, lixeira e backups. Edição Local em validação. | Python, Tkinter, SQLite |
+| [Portfólio original](Projetos/Portfolio-Legado/) | Primeira versão do meu portfólio, preservada como registro da evolução no desenvolvimento web. | HTML, CSS, JavaScript |
 
-Meu objetivo é continuar aprendendo, aprimorando minhas habilidades técnicas e desenvolvendo projetos que contribuam para minha formação profissional.
+O portfólio interativo com a assistente Elara está em [hector-dalonso.pages.dev](https://hector-dalonso.pages.dev/). Este repositório reúne os projetos e sua documentação; a pasta `front-end` publica o catálogo pelo GitHub Pages.
 
-## Portfólio
+## Organização
 
-Acesse meu portfólio pessoal para conhecer minha apresentação, minhas habilidades e meus projetos.
+```text
+Projetos/
+  Cadastro-Clientes/     Aplicação desktop e testes
+  Portfolio-Legado/     HTML, CSS e JavaScript da primeira versão
+front-end/              Catálogo público dos projetos
+.github/workflows/      Publicação do catálogo no GitHub Pages
+```
 
-**[Acessar meu portfólio](https://hectordalo.github.io/Portiflio/)**
+## Executáveis
 
-## Tecnologias
+Versões prontas para uso ficam em **[Releases](https://github.com/HectorDalo/Projetos/releases)**, junto com o guia correspondente. Bancos de dados, cadastros reais, backups e a ferramenta de recuperação administrativa não fazem parte da distribuição pública.
 
-- HTML5
-- CSS3
-- JavaScript
+## Sobre o desenvolvimento
 
+Sou estudante de Ciência da Computação e desenvolvedor em formação. Os projetos evoluem a partir de estudos, testes e uso de ferramentas de IA como apoio ao desenvolvimento. As funcionalidades e limitações de cada aplicação estão descritas no respectivo README.
 
-**[Acessar o código-fonte](https://github.com/HectorDalo/Portiflio/tree/main/Projetos/Cadastro-Clientes)**
-
-## Objetivo profissional
-
-Continuo estudando e desenvolvendo projetos para aprofundar meus conhecimentos em lógica de programação, desenvolvimento de software e construção de aplicações.
-
-Este repositório será atualizado conforme novos projetos e aprendizados forem incorporados.
-
-## Contato
-
-- **GitHub:** [HectorDalo](https://github.com/HectorDalo)
-- **Portfólio:** [hectordalo.github.io/Portiflio](https://hectordalo.github.io/Portiflio/)
-
----
-
-*Desenvolvido por Hector Dalonso.*
+O repositório antes se chamava `Portiflio`. Agora a apresentação profissional fica no portfólio atual e esta central concentra o código dos projetos.

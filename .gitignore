@@ -1,0 +1,30 @@
+# Ambientes, cache e preferências locais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+node_modules/
+
+# Dados reais e cópias de segurança
+clientes.json
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.db
+*.db-*
+backups/
+*.log
+*.parcial
+.env
+.env.*
+!.env.example
+
+# Produtos de compilação: distribuir por Releases
+build/
+dist/
+*.exe
+*.spec
+Recuperar-Administrador*
+recuperar_admin.py
