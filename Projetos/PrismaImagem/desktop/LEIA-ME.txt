@@ -1,0 +1,48 @@
+PRISMAIMAGEM — APLICATIVO NATIVO WINDOWS x64
+
+Extraia todo o ZIP e abra PrismaImagem.exe. Mantenha app e runtime junto dele.
+A tela principal agora é uma janela nativa C# / Windows Forms, sem navegador.
+Node já está incluído. Requer Windows 10/11 x64 e .NET Framework 4.8.
+
+MOTOR LOCAL SEM CHAVE OPENAI
+Na pasta extraída, execute ./setup-local.ps1 no PowerShell e reinicie o app.
+Downloads de aproximadamente 6 GB: ComfyUI e SD 1.5, com verificação SHA256.
+Reserve 20 GB para arquivos e extração. Consulte API-LOCAL.md.
+Sem o modelo instalado, o app abre, mas não gera imagens localmente.
+O modelo NÃO está incluído neste ZIP. Usa CreativeML Open RAIL-M.
+
+OPENAI OPCIONAL
+Selecione OpenAI e cadastre sua chave em Configurações.
+A chave fica criptografada com Windows DPAPI CurrentUser em data/credential.bin.
+Não é salva em .env nem passada na linha de comando. A conta exige créditos.
+A criptografia não protege contra malware executado na mesma conta Windows.
+
+RECURSOS
+Prompt, upload, qualidade/formato, prévia ampliada, download, editar resultado
+ e histórico em data/native-history. Os arquivos anteriores não são apagados;
+a lista mostra até 40 criações recentes.
+Local: 512x512, 768x512 ou 512x768, edição img2img com intensidade padrão 0,25.
+OpenAI: 1024x1024, 1536x1024 ou 1024x1536; operações podem gerar custos.
+
+API PRÓPRIA
+v1/health, v1/images/generations e v1/images/edits no servidor local.
+Token de sessão criado pelo app. Motor ComfyUI em 127.0.0.1:8188.
+Não exponha as portas na internet. Exemplos e instalação em API-LOCAL.md.
+
+VERIFICAÇÃO
+26 testes automatizados aprovados e EXE compilado.
+Este ambiente bloqueou a execução do EXE por Controle de Aplicativo.
+Não houve teste visual, ciclo DPAPI em execução ou inferência local real.
+O instalador do motor não foi executado com os downloads completos.
+O EXE ainda não tem assinatura de editor. Não desative proteções do Windows.
+
+INICIALIZAÇÃO ATUALIZADA
+O aplicativo nativo escolhe uma porta livre, sem depender da porta 3000.
+Em caso de falha, veja data/startup.log e use Tentar novamente.
+O diagnóstico não inclui sua chave, token de sessão ou prompts.
+
+NOVAS FERRAMENTAS
+Full HD e 2x sem recriar, intensidade de transformação, fundo transparente,
+remoção de área marcada, Desfazer e histórico com miniaturas.
+Leia GUIA-ESTUDIO.md. Fundo transparente exige setup-background.ps1 uma vez.
+As novas ferramentas ainda precisam de validação visual e de qualidade real.
