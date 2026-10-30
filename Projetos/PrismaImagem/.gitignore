@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+runtime/
+*.safetensors
+*.ckpt
+*.onnx
+node_modules/
+*.log
+**/data/
+*.pending
+outputs/
+work/
+**/engines/
