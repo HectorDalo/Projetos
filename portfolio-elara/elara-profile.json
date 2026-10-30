@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "owner": "Hector Dalonso",
+  "updatedAt": "2026-10-28",
+  "summary": {
+    "pt": "Hector de Paula Dalonso é estudante de Ciência da Computação no ENIAC e busca crescer em desenvolvimento de software. Sua trajetória reúne estágio de tecnologia no ENIAC e experiências anteriores na Edu Tintas, em serviços de refrigeração ligados à Ambev como autônomo, na REAL ROSA e na Start Pro. No ENIAC, relatou desenvolvimento web, automação, Low Code e colaboração com os laboratórios. Na Edu Tintas, atuou com pedidos, estoque, expedição e sistemas internos. Vem desenvolvendo conhecimentos em Python, C, bancos de dados, HTML e JavaScript e ampliando os estudos com C#, .NET e Blazor no exercício Sancall AI. No desenvolvimento deste portfólio, demonstra persistência nas revisões e atenção à qualidade da experiência: identifica problemas, pede melhorias e busca entender o que está aprendendo.",
+    "en": "Hector de Paula Dalonso is a Computer Science student at ENIAC seeking to grow in software development. His background includes a technology internship at ENIAC and earlier experience at Edu Tintas, self-employed refrigeration services associated with Ambev, REAL ROSA and Start Pro. At ENIAC he reported web development, automation, Low Code and laboratory support. At Edu Tintas he worked with orders, inventory, dispatch and internal systems. He is developing knowledge of Python, C, databases, HTML and JavaScript and expanding his studies with C#, .NET and Blazor through the Sancall AI exercise. His work on this portfolio shows persistence in revisions and attention to user experience: he identifies issues, asks for improvements and seeks to understand what he is learning."
+  },
+  "facts": {
+    "pt": [
+      "Buscar estágio em tecnologia, com foco em desenvolvimento de software e soluções digitais. Não apresentar suporte técnico como objetivo principal.",
+      "Centro Universitário ENIAC — Estágio em tecnologia; Desde agosto de 2026; indicado como atual nos currículos consultados em outubro de 2026. Desenvolvimento de páginas e aplicações web com HTML e JavaScript. Criação e manutenção de sistemas para diferentes dispositivos e navegadores. Automatização de tarefas e processos. Participação em reuniões de equipe e apoio em soluções simples com plataformas Low Code. Apoio à manutenção de computadores, periféricos e Chromebooks em laboratórios, organização dos ambientes e acompanhamento de chamados junto à equipe responsável.",
+      "Edu Tintas — Auxiliar de loja; Novembro de 2025 a agosto de 2026 Atendimento, abastecimento e organização de produtos e estoque. Preparação e expedição de pedidos, inclusive via Mercado Livre. Uso de sistema interno para pedidos, conferência de notas fiscais e liberação de mercadorias.",
+      "Ambev — Técnico de refrigeração / autônomo; Novembro de 2022 a fevereiro de 2023 Atendimento de chamados em campo, manutenção preventiva e corretiva de equipamentos de refrigeração e diagnóstico de falhas. Experiência como autônomo; não descrever como vínculo CLT confirmado com a Ambev.",
+      "REAL ROSA — Auxiliar / assistente geral; Setembro de 2016 a janeiro de 2018 Atendimento ao cliente, organização de estoque, reposição e apoio às rotinas da loja. Apoio interno à manutenção e diagnóstico de computadores e infraestrutura de rede.",
+      "Start Pro — Trainee; Novembro de 2015 a fevereiro de 2016 Apoio a professores e alunos em aulas de informática, Word, Excel, PowerPoint e Access. Manutenção e configuração de computadores.",
+      "Courses / Cursos: Python Básico — Fundação Bradesco (2026); Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python — Fundação Bradesco (2026); Introdução à Programação Orientada a Objetos — Fundação Bradesco (Não informado / Not supplied); Pensamento Computacional — Fundação Bradesco (2026); Página simples com HTML, CSS e JavaScript — Fundação Bradesco (2026); Almoxarifado Básico — Cursos Escola Educação (conforme currículo) (2022); Informática, Inglês e Gestão Empresarial — Start Pro Formação Profissional (2016)",
+      "Conhecimentos em desenvolvimento: Python, C, lógica de programação, POO, HTML, CSS, JavaScript, bancos de dados e SQL. Ferramentas mencionadas no currículo: Git, GitHub, GitHub Pages, Tkinter, JSON e XAMPP. Inglês básico; ter feito curso não comprova fluência. C#, .NET e Blazor fazem parte de estudos posteriores no Sancall AI.",
+      "Criei a Elara, assistente virtual deste portfólio. Estou desenvolvendo habilidades em inteligência artificial aplicada e aprimorando meus conhecimentos ao desenvolver e evoluir esse projeto.",
+      "Python: Básico em prática; Projeto de cadastro com Tkinter e arquivos JSON.",
+      "HTML · CSS · JavaScript: Fundamentos em prática; Estudos e atividades web no estágio do ENIAC.",
+      "IA aplicada / Applied AI: Prática inicial com orientação; Criação da Elara: definição da experiência, integração e testes de conversa, com apoio de IA no desenvolvimento.",
+      "C: Básico em estudo; Linguagem em desenvolvimento na formação em Computação.",
+      "C# · .NET · Blazor: Contato inicial; Estudos e exercício Sancall AI.",
+      "SQL / Bancos de dados: Fundamentos em estudo; Estudos de bancos de dados; persistência em JSON no projeto Python.",
+      "Git · GitHub: Uso inicial em projetos; Repositório público e organização dos projetos.",
+      "Microsoft Office: Conhecimentos de uso; Word, Excel, PowerPoint e Access: formação e apoio a alunos no Start Pro.",
+      "Google Workspace: Conhecimentos de uso; Google Planilhas, Documentos, Forms e Slides, conforme experiência informada.",
+      "Inglês / English: Básico; Formação inicial e aprendizado em continuidade.",
+      "Estudos práticos de C#, .NET e Blazor no exercício Sancall AI: execução da aplicação, leitura de arquivos, JSON, desserialização de procedimentos e lógica de consulta. Hector pediu uma avaliação e explicações dos erros para testar seu aprendizado. É um exercício em desenvolvimento; não há confirmação de produto de IA concluído, cliente, certificado ou domínio avançado.",
+      "Nos currículos, Hector se descreve como dedicado, curioso, organizado, com facilidade para aprender, trabalhar em equipe e resolver problemas. Apresentar como autoavaliação, apoiada quando possível em exemplos da trajetória, sem notas de competência ou garantia de desempenho.",
+      "Portfólio · Uma nova perspectiva: O site que você está explorando. Identidade cinematográfica, navegação bilíngue e uma interface pensada para evoluir.",
+      "Sistema de Cadastro de Clientes: Aplicação em Python com interface Tkinter para cadastrar, pesquisar, editar e excluir clientes, com persistência local em JSON."
+    ],
+    "en": [
+      "Seek a technology internship focused on software development and digital solutions. Do not present technical support as the main career objective.",
+      "Centro Universitário ENIAC — Technology internship; Since August 2026; listed as current in the resumes reviewed in October 2026. Developing web pages and applications with HTML and JavaScript. Creating and maintaining systems for different devices and browsers. Automating tasks and processes. Taking part in team meetings and supporting simple Low Code solutions. Supporting computer, peripheral and Chromebook maintenance in laboratories, organizing environments and following technical tickets with the responsible team.",
+      "Edu Tintas — Store assistant; November 2025 to August 2026 Customer service, stocking and product and inventory organization. Preparing and dispatching orders, including Mercado Livre orders. Using internal systems for orders, invoice checking and releasing goods.",
+      "Ambev — Refrigeration technician / self-employed; November 2022 to February 2023 Field service, preventive and corrective refrigeration maintenance and fault diagnosis. Self-employed experience; do not describe it as confirmed direct employment at Ambev.",
+      "REAL ROSA — General assistant; September 2016 to January 2018 Customer service, inventory organization, replenishment and store operations. Internal support for computer maintenance, diagnostics and network infrastructure.",
+      "Start Pro — Trainee; November 2015 to February 2016 Supporting teachers and students in computer literacy, Word, Excel, PowerPoint and Access classes. Computer maintenance and configuration.",
+      "Courses / Cursos: Python Básico — Fundação Bradesco (2026); Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python — Fundação Bradesco (2026); Introdução à Programação Orientada a Objetos — Fundação Bradesco (Não informado / Not supplied); Pensamento Computacional — Fundação Bradesco (2026); Página simples com HTML, CSS e JavaScript — Fundação Bradesco (2026); Almoxarifado Básico — Cursos Escola Educação (conforme currículo) (2022); Informática, Inglês e Gestão Empresarial — Start Pro Formação Profissional (2016)",
+      "Developing knowledge of Python, C, programming logic, OOP, HTML, CSS, JavaScript, databases and SQL. Resume tools: Git, GitHub, GitHub Pages, Tkinter, JSON and XAMPP. Basic English; completing a course does not establish fluency. C#, .NET and Blazor are later studies through Sancall AI.",
+      "I created Elara, this portfolio’s virtual assistant. I am developing skills in applied artificial intelligence and improving my knowledge as I build and evolve this project.",
+      "Python: Beginner, practising; Customer registration project using Tkinter and JSON files.",
+      "HTML · CSS · JavaScript: Practising fundamentals; Studies and web tasks during the ENIAC internship.",
+      "IA aplicada / Applied AI: Early practice with guidance; Creating Elara: experience design, integration and conversation testing, with AI assistance during development.",
+      "C: Learning the basics; A language being studied during the Computer Science degree.",
+      "C# · .NET · Blazor: Initial exposure; Studies and the Sancall AI exercise.",
+      "SQL / Bancos de dados: Learning fundamentals; Database studies; JSON persistence in the Python project.",
+      "Git · GitHub: Early use in projects; Public repository and project organisation.",
+      "Microsoft Office: Working familiarity; Word, Excel, PowerPoint and Access: training and student support at Start Pro.",
+      "Google Workspace: Working familiarity; Google Sheets, Docs, Forms and Slides, based on reported experience.",
+      "Inglês / English: Basic; Initial training and continued learning.",
+      "Practical C#, .NET and Blazor study through the Sancall AI exercise: running an application, reading files, JSON, procedure deserialization and query logic. Hector requested an assessment and explanations of mistakes to check his learning. This is an exercise in progress; no completed AI product, client, certificate or advanced proficiency is confirmed.",
+      "In his resumes Hector describes himself as dedicated, curious, organized, able to learn, work with a team and solve problems. Present this as self-description, supported where possible by examples from his background, without competency ratings or performance guarantees.",
+      "Portfolio · A new perspective: The site you are exploring. A cinematic identity, bilingual navigation and an interface designed to evolve.",
+      "Customer Registration System: A Python application with a Tkinter interface to register, search, edit and delete customers, with local JSON persistence."
+    ]
+  }
+}
