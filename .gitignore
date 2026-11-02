@@ -6,6 +6,7 @@ __pycache__/
 .idea/
 .vscode/
 node_modules/
+.wrangler/
 
 # Dados reais e cópias de segurança
 clientes.json
