@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "owner": "Hector Dalonso",
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-11-02",
   "summary": {
     "pt": "Hector de Paula Dalonso é estudante de Ciência da Computação no ENIAC e busca crescer em desenvolvimento de software. Sua trajetória reúne estágio de tecnologia no ENIAC e experiências anteriores na Edu Tintas, em serviços de refrigeração ligados à Ambev como autônomo, na REAL ROSA e na Start Pro. No ENIAC, relatou desenvolvimento web, automação, Low Code e colaboração com os laboratórios. Na Edu Tintas, atuou com pedidos, estoque, expedição e sistemas internos. Vem desenvolvendo conhecimentos em Python, C, bancos de dados, HTML e JavaScript e ampliando os estudos com C#, .NET e Blazor no exercício Sancall AI. No desenvolvimento deste portfólio, demonstra persistência nas revisões e atenção à qualidade da experiência: identifica problemas, pede melhorias e busca entender o que está aprendendo.",
     "en": "Hector de Paula Dalonso is a Computer Science student at ENIAC seeking to grow in software development. His background includes a technology internship at ENIAC and earlier experience at Edu Tintas, self-employed refrigeration services associated with Ambev, REAL ROSA and Start Pro. At ENIAC he reported web development, automation, Low Code and laboratory support. At Edu Tintas he worked with orders, inventory, dispatch and internal systems. He is developing knowledge of Python, C, databases, HTML and JavaScript and expanding his studies with C#, .NET and Blazor through the Sancall AI exercise. His work on this portfolio shows persistence in revisions and attention to user experience: he identifies issues, asks for improvements and seeks to understand what he is learning."
@@ -29,8 +29,9 @@
       "Inglês / English: Básico; Formação inicial e aprendizado em continuidade.",
       "Estudos práticos de C#, .NET e Blazor no exercício Sancall AI: execução da aplicação, leitura de arquivos, JSON, desserialização de procedimentos e lógica de consulta. Hector pediu uma avaliação e explicações dos erros para testar seu aprendizado. É um exercício em desenvolvimento; não há confirmação de produto de IA concluído, cliente, certificado ou domínio avançado.",
       "Nos currículos, Hector se descreve como dedicado, curioso, organizado, com facilidade para aprender, trabalhar em equipe e resolver problemas. Apresentar como autoavaliação, apoiada quando possível em exemplos da trajetória, sem notas de competência ou garantia de desempenho.",
+      "Pulso · Avaliações viram ações: Agente de IA que lê avaliações de restaurantes de delivery, aponta os problemas mais urgentes, monta um plano de ação e escreve uma resposta para cada cliente.",
       "Portfólio · Uma nova perspectiva: O site que você está explorando. Identidade cinematográfica, navegação bilíngue e uma interface pensada para evoluir.",
-      "Sistema de Cadastro de Clientes: Aplicação em Python com interface Tkinter para cadastrar, pesquisar, editar e excluir clientes, com persistência local em JSON."
+      "HD Clientes · Edição Local: Aplicação desktop em Python com SQLite, usuários, permissões, histórico, lixeira e backups. Executável Windows em validação."
     ],
     "en": [
       "Seek a technology internship focused on software development and digital solutions. Do not present technical support as the main career objective.",
@@ -54,8 +55,9 @@
       "Inglês / English: Basic; Initial training and continued learning.",
       "Practical C#, .NET and Blazor study through the Sancall AI exercise: running an application, reading files, JSON, procedure deserialization and query logic. Hector requested an assessment and explanations of mistakes to check his learning. This is an exercise in progress; no completed AI product, client, certificate or advanced proficiency is confirmed.",
       "In his resumes Hector describes himself as dedicated, curious, organized, able to learn, work with a team and solve problems. Present this as self-description, supported where possible by examples from his background, without competency ratings or performance guarantees.",
+      "Pulso · Reviews into action: An AI agent that reads delivery-restaurant reviews, flags the most urgent problems, builds an action plan and drafts a reply for each customer.",
       "Portfolio · A new perspective: The site you are exploring. A cinematic identity, bilingual navigation and an interface designed to evolve.",
-      "Customer Registration System: A Python application with a Tkinter interface to register, search, edit and delete customers, with local JSON persistence."
+      "HD Clientes · Local Edition: A Python desktop application with SQLite, user roles, activity history, a recycle bin and backups. Windows executable undergoing validation."
     ]
   }
 }
