@@ -2,7 +2,7 @@
 
 Central dos meus projetos pessoais e estudos em desenvolvimento de software.
 
-**[Portfólio atual](https://hector-dalonso.pages.dev/)** · **[Catálogo dos projetos](https://hectordalo.github.io/Projetos/)** · **[LinkedIn](https://www.linkedin.com/in/hdalonso/)**
+**[Portfólio atual](https://hector-dalonso.pages.dev/)** · **[LinkedIn](https://www.linkedin.com/in/hdalonso/)**
 
 ## Projetos
 
@@ -13,7 +13,7 @@ Central dos meus projetos pessoais e estudos em desenvolvimento de software.
 | [Portfólio com a Elara](portfolio-elara/) | O portfólio atual: assistente virtual com chat e voz, avatar 3D no computador e tradução PT/EN. [Site no ar](https://hector-dalonso.pages.dev/). | React, TypeScript, Three.js, Cloudflare |
 | [Portfólio original](Projetos/Portfolio-Legado/) | Primeira versão do meu portfólio, preservada como registro da evolução no desenvolvimento web. | HTML, CSS, JavaScript |
 
-O Pulso tem repositório próprio. Este repositório reúne os demais projetos, o código do portfólio e a documentação; a pasta `front-end` publica o catálogo pelo GitHub Pages.
+O Pulso tem repositório próprio. Este repositório reúne os demais projetos, o código do portfólio e a documentação; a pasta `front-end` só redireciona os endereços antigos do GitHub Pages para o portfólio.
 
 ## Organização
 
@@ -22,8 +22,8 @@ Projetos/
   Cadastro-Clientes/     Aplicação desktop e testes
   Portfolio-Legado/     HTML, CSS e JavaScript da primeira versão
 portfolio-elara/        Portfólio atual (React + TypeScript) e o Worker da assistente Elara
-front-end/              Catálogo público dos projetos
-.github/workflows/      Publicação do catálogo no GitHub Pages
+front-end/              Redireciona os links antigos do GitHub Pages para o portfólio
+.github/workflows/      Publicação do redirecionamento no GitHub Pages
 ```
 
 ## Executáveis
