@@ -43,7 +43,7 @@ export const projects: Project[] = [{
     en: 'A delivery restaurant gets dozens of reviews a week, and reading them one by one takes hours. I built Pulso to do that reading: it separates praise from problems (delays, cold food, wrong orders, packaging...), shows what repeats most and suggests an action plan and a reply for each customer. It uses Cloudflare’s AI, but the rules in my code have the final word: hygiene and allergies always come first. The sample reviews are fictional and the suggested replies need a review before being published. Built with the help of AI tools.',
   },
   status: 'done',
-  tags: ['IA', 'Cloudflare Workers AI', 'JavaScript'],
+  tags: ['IA', 'JavaScript', 'HTML', 'CSS', 'Cloudflare Workers', 'Workers AI (Llama)', 'Wrangler', 'Node.js'],
   sourceUrl: 'https://github.com/HectorDalo/pulso',
   liveUrl: 'https://pulso-avaliacoes.hector-dalonso.workers.dev',
 }, {
@@ -62,7 +62,7 @@ export const projects: Project[] = [{
     en: 'I wanted an AI image and video studio that ran on my own computer, with no subscription and without sending my prompts to the internet. Prisma Studio does that: it creates images and short videos, removes photo backgrounds, upscales images and keeps everything in a gallery. You can write in Portuguese, because a small model translates the text before generating. It is still evolving: image quality is not always what I want, videos are short and it only works on a computer with an NVIDIA graphics card. Built with the help of AI tools.',
   },
   status: 'in-progress',
-  tags: ['IA', 'C#', 'Node.js', 'ComfyUI'],
+  tags: ['IA', 'C#', 'Node.js', 'JavaScript', 'HTML', 'CSS', 'Python', 'ComfyUI', 'Stable Diffusion XL', 'FLUX', 'LTX-Video', 'BiRefNet', 'Real-ESRGAN', 'Qwen2.5'],
   sourceUrl: 'https://github.com/HectorDalo/prisma-studio',
 }, {
   id: 'portfolio',
@@ -80,7 +80,7 @@ export const projects: Project[] = [{
     en: 'I wanted a portfolio with its own identity and someone to welcome visitors. So I created Elara, a virtual assistant that talks by text or voice and answers about me and my projects. The site is in Portuguese and English and works well on phones. It is still being built: the database to store projects is not connected yet, so they live in files inside the site. Built with the help of AI tools.',
   },
   status: 'in-progress',
-  tags: ['React', 'TypeScript', 'CSS', 'Three.js'],
+  tags: ['React', 'TypeScript', 'Vite', 'CSS', 'HTML', 'Three.js', 'Cloudflare Pages', 'Cloudflare Workers', 'Workers AI (Llama)', 'Whisper', 'Kokoro (voz)', 'WebGPU', 'Vitest', 'pnpm', 'FastAPI (preparado)', 'Supabase (preparado)'],
   sourceUrl: 'https://github.com/HectorDalo/Projetos/tree/main/portfolio-elara',
   liveUrl: 'https://hector-dalonso.pages.dev',
 }, {
@@ -98,7 +98,7 @@ export const projects: Project[] = [{
     en: 'It started as a simple customer register in Python and kept growing. Today HD Clientes stores name, phone, email and address in a local database, has login with administrator and operator roles, a change history, a recycle bin to recover deleted records and automatic backups. It runs offline and without installing Python. I am still validating the Windows version, and it is meant for a single computer: there is no team edition, sales or invoicing. Built with the help of AI tools and automated tests.',
   },
   status: 'in-progress',
-  tags: ['Python', 'Tkinter', 'SQLite'],
+  tags: ['Python', 'Tkinter', 'SQLite', 'PyInstaller', 'unittest', 'ViaCEP'],
   sourceUrl: 'https://github.com/HectorDalo/Projetos/tree/main/Projetos/Cadastro-Clientes',
 }];
 
