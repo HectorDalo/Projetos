@@ -66,7 +66,7 @@ describe('Workers AI integration (provider doubles; no live inference)', () => {
 });
 
 it('automatically includes all new project data in assistant context after a source update', async () => {
-  projects.push({id:'test-only',title:{pt:'Projeto de teste',en:'Test project'},category:{pt:'Teste',en:'Test'},description:{pt:'Descrição de teste',en:'Test description'},details:{pt:'Resultado confirmado de teste',en:'Confirmed test result'},tags:['TestTech'],sourceUrl:'https://example.test/source',liveUrl:'https://example.test/live'});
+  projects.push({id:'test-only',title:{pt:'Projeto de teste',en:'Test project'},category:{pt:'Teste',en:'Test'},description:{pt:'Descrição de teste',en:'Test description'},details:{pt:'Resultado confirmado de teste',en:'Confirmed test result'},status:'done',tags:['TestTech'],sourceUrl:'https://example.test/source',liveUrl:'https://example.test/live'});
   try {
     const run=vi.fn().mockResolvedValue({response:'test response'});
     await handleRequest(post(),{AI:{run}});

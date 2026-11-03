@@ -29,7 +29,7 @@ it('opens and closes the actual portfolio project details', async () => {
   const openButton = screen.getByRole('button', { name: /Conhecer o projeto: Portfólio/ });
   await userEvent.click(openButton);
   await waitFor(() => expect(screen.getByRole('dialog')).toBeTruthy());
-  expect(screen.getByText(/A assistente é um avatar animado/)).toBeTruthy();
+  expect(screen.getByText(/Por isso criei a Elara/)).toBeTruthy();
   await userEvent.click(screen.getByRole('button', { name: 'Fechar' }));
   expect(screen.queryByRole('dialog')).toBeNull();
 });
