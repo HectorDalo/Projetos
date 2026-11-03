@@ -46,6 +46,23 @@ export const projects: Project[] = [{
   sourceUrl: 'https://github.com/HectorDalo/pulso',
   liveUrl: 'https://pulso-avaliacoes.hector-dalonso.workers.dev',
 }, {
+  id: 'prisma-studio',
+  image: '/images/projects/prisma-studio.png',
+  imageAlt: { pt: 'Galeria do Prisma Studio com um gato laranja, um vídeo, uma astronauta sem fundo e a imagem original', en: 'Prisma Studio gallery with an orange cat, a video, a background-removed astronaut and the original image' },
+  imageCaption: { pt: 'Captura real do aplicativo, com imagens que ele mesmo gerou neste computador.', en: 'Real screenshot of the app, with images it generated on this computer.' },
+  title: { pt: 'Prisma Studio · IA de imagem e vídeo no seu PC', en: 'Prisma Studio · Image and video AI on your PC' },
+  category: { pt: 'Aplicativo desktop / IA local', en: 'Desktop app / Local AI' },
+  description: {
+    pt: 'Aplicativo para Windows que cria imagens e vídeos, remove fundos e amplia fotos com IA rodando no próprio computador, sem nuvem.',
+    en: 'Windows app that creates images and videos, removes backgrounds and upscales photos with AI running on your own computer, with no cloud.',
+  },
+  details: {
+    pt: 'O problema: ferramentas online de imagem com IA cobram, filtram, enviam seus textos para fora e muitas vezes entregam resultados ruins. Refiz um estúdio local do zero. Um lançador em C# (Prisma.exe) liga um servidor Node sem dependências, que controla o ComfyUI como motor e abre uma janela própria do aplicativo; ao fechar, tudo desliga e libera a placa de vídeo. O app cria imagens (Stable Diffusion XL e FLUX.1 schnell), vídeos de cerca de 2 segundos (LTX-Video, a partir de texto ou de uma imagem), remove fundo (BiRefNet), amplia até 4 vezes (Real-ESRGAN) e guarda tudo numa galeria local com favoritos. Dá para escrever em português: um modelo pequeno (Qwen2.5 1.5B), também local, traduz o texto para o inglês, que os modelos entendem melhor, e o usuário pode revisar a tradução. Medido numa RTX 2070 de 8 GB: imagem 1024 por 1024 em cerca de 50 s, vídeo em cerca de 45 s, remoção de fundo em 1,5 s. Limites: vídeos são curtos e de resolução média; modelos maiores não cabem em 8 GB; a anatomia de mãos e corpos ainda falha às vezes; precisa de GPU NVIDIA, bastante disco (uns 40 GB de modelos) e memória virtual grande. O app só escuta em 127.0.0.1. Os modelos e o motor não ficam no repositório: um script baixa tudo e confere o SHA-256. As licenças de cada modelo estão documentadas. Projeto desenvolvido com apoio de ferramentas de IA.',
+    en: 'The problem: online AI image tools charge, filter, send your prompts elsewhere and often give poor results. I rebuilt a local studio from scratch. A C# launcher (Prisma.exe) starts a dependency-free Node server that drives ComfyUI as the engine and opens the app in its own window; on close, everything shuts down and frees the graphics card. The app creates images (Stable Diffusion XL and FLUX.1 schnell), videos of about 2 seconds (LTX-Video, from text or from an image), removes backgrounds (BiRefNet), upscales up to 4 times (Real-ESRGAN) and keeps everything in a local gallery with favorites. You can write in Portuguese: a small local model (Qwen2.5 1.5B) translates the text to English, which the models understand better, and the user can review the translation. Measured on an 8 GB RTX 2070: a 1024 by 1024 image in about 50 s, a video in about 45 s, background removal in 1.5 s. Limits: videos are short and medium resolution; larger models do not fit in 8 GB; hand and body anatomy still fails sometimes; it needs an NVIDIA GPU, plenty of disk (about 40 GB of models) and a large paging file. The app only listens on 127.0.0.1. Models and engine are not in the repository: a script downloads everything and checks the SHA-256. Each model license is documented. Developed with AI assistance.',
+  },
+  tags: ['IA', 'C#', 'Node.js', 'ComfyUI'],
+  sourceUrl: 'https://github.com/HectorDalo/prisma-studio',
+}, {
   id: 'portfolio',
   image: '/images/projects/portfolio.jpg',
   imageAlt: { pt: 'Página inicial do portfólio com a assistente Elara, o campo de conversa e o menu', en: 'Portfolio home page with the Elara assistant, the chat field and the menu' },
