@@ -103,19 +103,19 @@ export const projects: Project[] = [{
 }, {
   id: 'englishquest',
   image: '/images/projects/englishquest.png',
-  imageAlt: { pt: 'Conversa com o dono da sorveteria no jogo, com as respostas em inglês e a tradução em português', en: 'Conversation with the ice cream shop owner in the game, with answers in English and a Portuguese translation' },
-  imageCaption: { pt: 'Captura real do jogo: o jogador escolhe o que dizer ou fala a frase no microfone.', en: 'Real game screenshot: the player picks what to say or speaks the sentence into the microphone.' },
+  imageAlt: { pt: 'Tela de abertura do jogo EnglishQuest, com o título sobre uma rua de bairro ao entardecer', en: 'EnglishQuest title screen, with the title over a neighborhood street at dusk' },
+  imageCaption: { pt: 'Tela de abertura do jogo, capturada no próprio jogo.', en: 'The game’s title screen, captured in the game itself.' },
   title: { pt: 'EnglishQuest · Aprender inglês jogando', en: 'EnglishQuest · Learning English by playing' },
   category: { pt: 'Jogo 3D / Em andamento', en: '3D game / In progress' },
   description: {
-    pt: 'Jogo em 3D para brasileiros aprenderem inglês conversando com personagens.',
-    en: 'A 3D game for Brazilians to learn English by talking with characters.',
+    pt: 'Jogo em 3D para aprender inglês conversando com personagens.',
+    en: 'A 3D game for learning English by talking with characters.',
   },
   details: {
-    pt: 'Quero que quem começa do zero aprenda inglês de um jeito que dê vontade de continuar. No EnglishQuest você anda por um bairro, entra no café, na sorveteria e no restaurante e conversa em inglês com as pessoas, escolhendo o que dizer ou falando a frase no microfone. Tudo tem voz e, no nível iniciante, tradução. Também dá para trabalhar: você faz o serviço de verdade, e entender o inglês do cliente é o que faz o trabalho dar certo. O inglês vai aparecendo aos poucos, sem nada que você ainda não tenha aprendido. Ainda está no começo: hoje só o primeiro nível está pronto, com poucos lugares. Faço com apoio de ferramentas de IA.',
-    en: 'I want people starting from zero to learn English in a way that makes them want to keep going. In EnglishQuest you walk around a neighborhood, enter the café, the ice cream shop and the restaurant and talk to people in English, choosing what to say or speaking the sentence into the microphone. Everything has a voice and, at the beginner level, a translation. You can also work: you do the job for real, and understanding the customer’s English is what makes the work succeed. English appears little by little, with nothing you have not learned yet. It is still early: today only the first level is ready, with a few places. I am building it with the help of AI tools.',
+    pt: 'Jogo em 3D em que se aprende inglês conversando com personagens de um bairro. Você anda pela rua, entra nos lugares e conversa por voz, com tradução no nível iniciante. O conteúdo vai crescendo por níveis. Está em desenvolvimento: hoje só o primeiro nível existe, com poucos lugares. Feito com apoio de ferramentas de IA.',
+    en: 'A 3D game where you learn English by talking with characters in a neighborhood. You walk the street, enter places and talk by voice, with translation at the beginner level. The content grows by levels. It is in development: today only the first level exists, with a few places. Built with the help of AI tools.',
   },
-  tags: ['Godot 4', 'GDScript', 'Python', 'Piper (voz)', 'Git LFS'],
+  tags: ['Godot 4', 'GDScript', 'Python'],
   status: 'in-progress',
 }, {
   id: 'sancall-ai',
