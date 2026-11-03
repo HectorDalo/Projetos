@@ -30,9 +30,11 @@
       "Estudos práticos de C#, .NET e Blazor no exercício Sancall AI: execução da aplicação, leitura de arquivos, JSON, desserialização de procedimentos e lógica de consulta. Hector pediu uma avaliação e explicações dos erros para testar seu aprendizado. É um exercício em desenvolvimento; não há confirmação de produto de IA concluído, cliente, certificado ou domínio avançado.",
       "Nos currículos, Hector se descreve como dedicado, curioso, organizado, com facilidade para aprender, trabalhar em equipe e resolver problemas. Apresentar como autoavaliação, apoiada quando possível em exemplos da trajetória, sem notas de competência ou garantia de desempenho.",
       "Pulso · Avaliações viram ações [concluído]: Lê as avaliações de um restaurante de delivery e mostra o que mais incomoda os clientes.",
-      "Prisma Studio · IA de imagem e vídeo no seu PC [em andamento]: Aplicativo para Windows que cria imagens e vídeos com IA direto no computador, sem nuvem.",
-      "Portfólio · Uma nova perspectiva [em andamento]: O site que você está explorando, com a Elara, uma assistente que conversa por texto ou voz.",
-      "HD Clientes · Edição Local [em andamento]: Programa de Windows em Python para cadastrar e consultar clientes, sem internet."
+      "Prisma Studio · IA de imagem e vídeo no seu PC [concluído]: Aplicativo para Windows que cria imagens e vídeos com IA direto no computador, sem nuvem.",
+      "Portfólio · Uma nova perspectiva [concluído]: O site que você está explorando, com a Elara, uma assistente que conversa por texto ou voz.",
+      "HD Clientes · Edição Local [concluído]: Programa de Windows em Python para cadastrar e consultar clientes, sem internet.",
+      "EnglishQuest · Aprender inglês jogando [em andamento]: Jogo em 3D para brasileiros aprenderem inglês conversando com personagens.",
+      "Sancall AI · Estudo de C# e .NET [em andamento]: Exercício para aprender C#, .NET e Blazor na prática."
     ],
     "en": [
       "Seek a technology internship focused on software development and digital solutions. Do not present technical support as the main career objective.",
@@ -57,9 +59,11 @@
       "Practical C#, .NET and Blazor study through the Sancall AI exercise: running an application, reading files, JSON, procedure deserialization and query logic. Hector requested an assessment and explanations of mistakes to check his learning. This is an exercise in progress; no completed AI product, client, certificate or advanced proficiency is confirmed.",
       "In his resumes Hector describes himself as dedicated, curious, organized, able to learn, work with a team and solve problems. Present this as self-description, supported where possible by examples from his background, without competency ratings or performance guarantees.",
       "Pulso · Reviews into action [finished]: Reads a delivery restaurant’s reviews and shows what bothers customers the most.",
-      "Prisma Studio · Image and video AI on your PC [in progress]: Windows app that creates images and videos with AI right on your computer, with no cloud.",
-      "Portfolio · A new perspective [in progress]: The site you are exploring, with Elara, an assistant that talks by text or voice.",
-      "HD Clientes · Local Edition [in progress]: A Windows program in Python to register and look up customers, offline."
+      "Prisma Studio · Image and video AI on your PC [finished]: Windows app that creates images and videos with AI right on your computer, with no cloud.",
+      "Portfolio · A new perspective [finished]: The site you are exploring, with Elara, an assistant that talks by text or voice.",
+      "HD Clientes · Local Edition [finished]: A Windows program in Python to register and look up customers, offline.",
+      "EnglishQuest · Learning English by playing [in progress]: A 3D game for Brazilians to learn English by talking with characters.",
+      "Sancall AI · C# and .NET study [in progress]: An exercise to learn C#, .NET and Blazor in practice."
     ]
   }
 }
